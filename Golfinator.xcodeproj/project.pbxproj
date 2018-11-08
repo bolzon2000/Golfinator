@@ -13,6 +13,7 @@
 		556EB9342193BE7300E6B0D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556EB9332193BE7300E6B0D4 /* Assets.xcassets */; };
 		556EB9372193BE7300E6B0D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556EB9352193BE7300E6B0D4 /* LaunchScreen.storyboard */; };
 		556EB93A2193BE7300E6B0D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 556EB9392193BE7300E6B0D4 /* main.m */; };
+		556EB94221949FF000E6B0D4 /* config.yml in Resources */ = {isa = PBXBuildFile; fileRef = 556EB94121949FEF00E6B0D4 /* config.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		556EB9362193BE7300E6B0D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		556EB9382193BE7300E6B0D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		556EB9392193BE7300E6B0D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		556EB94121949FEF00E6B0D4 /* config.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		556EB9292193BE6D00E6B0D4 /* Golfinator */ = {
 			isa = PBXGroup;
 			children = (
+				556EB94021949FEF00E6B0D4 /* .circleci */,
 				556EB92A2193BE6D00E6B0D4 /* AppDelegate.h */,
 				556EB92B2193BE6D00E6B0D4 /* AppDelegate.m */,
 				556EB92D2193BE6D00E6B0D4 /* ViewController.h */,
@@ -70,6 +73,14 @@
 			);
 			path = Golfinator;
 			sourceTree = "<group>";
+		};
+		556EB94021949FEF00E6B0D4 /* .circleci */ = {
+			isa = PBXGroup;
+			children = (
+				556EB94121949FEF00E6B0D4 /* config.yml */,
+			);
+			path = .circleci;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -128,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556EB94221949FF000E6B0D4 /* config.yml in Resources */,
 				556EB9372193BE7300E6B0D4 /* LaunchScreen.storyboard in Resources */,
 				556EB9342193BE7300E6B0D4 /* Assets.xcassets in Resources */,
 				556EB9322193BE6D00E6B0D4 /* Main.storyboard in Resources */,

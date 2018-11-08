@@ -26,4 +26,9 @@
 }
 
 
+- (IBAction)predictThreePuts:(id)sender {
+    
+    NSInteger randomNumber = arc4random() % 19;
+    self.predictionResult.text = [NSString stringWithFormat:@" %li", randomNumber];
+}
 @end
